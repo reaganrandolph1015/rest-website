@@ -1,1 +1,1 @@
-alert("Hello World!");
+(()=>{const e=document.getElementById("content"),t=document.createTextNode("This company offers a variety of delicious platters. Entrees and sides are free on orders exceeding $75. We value all customers and employees."),o=document.createElement("h1");let d=document.createElement("img");d.src="https://media.istockphoto.com/photos/foods-high-in-zinc-picture-id1289940519",o.appendChild(t),e.appendChild(o),e.appendChild(d)})();
