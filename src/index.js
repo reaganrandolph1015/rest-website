@@ -1,7 +1,7 @@
 import loadPage from './modules/initial-page';
 import loadHome from './modules/home';
 
-loadPage();
+init();
 
 function navEvents() {
   // allows users to navigate website by clicking tabs
@@ -11,6 +11,12 @@ function navEvents() {
   const contactBtn = document.getElementById('contact');
   // event listeners
   homeBtn.addEventListener('click', loadHome);
-  menuBtn.addEventListener('click', loadMenu);
-  contactBtn.addEventListener('click', loadContact);
+  //menuBtn.addEventListener('click', loadMenu);
+  //contactBtn.addEventListener('click', loadContact);
+}
+
+function init() {
+  loadPage();
+  loadHome();
+  navEvents();
 }
