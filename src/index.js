@@ -1,4 +1,5 @@
 import loadPage from './modules/initial-page';
+import loadHome from './modules/home';
 
 loadPage();
 /*
