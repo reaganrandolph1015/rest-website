@@ -27,11 +27,11 @@ function createNav(id) {
   nav.setAttribute('id', id);
 
   const homeBtn = createBtn('home', 'home');
-  const menuBtn = createBtn('menu', 'menu');
+  const galleryBtn = createBtn('gallery', 'gallery');
   const contactBtn = createBtn('contact', 'contact');
 
   nav.appendChild(homeBtn);
-  nav.appendChild(menuBtn);
+  nav.appendChild(galleryBtn);
   nav.appendChild(contactBtn);
 
   return nav;
