@@ -1,6 +1,7 @@
 import loadPage from './modules/initial-page';
 import loadHome from './modules/home';
 import loadGallery from './modules/gallery';
+import loadAbout from './modules/about';
 
 init();
 
@@ -9,11 +10,11 @@ function navEvents() {
   // document selectors
   const homeBtn = document.getElementById('home');
   const galleryBtn = document.getElementById('gallery');
-  const contactBtn = document.getElementById('contact');
+  const aboutBtn = document.getElementById('about');
   // event listeners
   homeBtn.addEventListener('click', loadHome);
   galleryBtn.addEventListener('click', loadGallery);
-  //contactBtn.addEventListener('click', loadContact);
+  aboutBtn.addEventListener('click', loadAbout);
 }
 
 // function to initialize webpage

@@ -26,13 +26,13 @@ function createNav(id) {
   const nav = document.createElement('nav');
   nav.setAttribute('id', id);
 
-  const homeBtn = createBtn('home', 'home');
-  const galleryBtn = createBtn('gallery', 'gallery');
-  const contactBtn = createBtn('contact', 'contact');
+  const homeBtn = createBtn('home', 'Home');
+  const galleryBtn = createBtn('gallery', 'Gallery');
+  const aboutBtn = createBtn('about', 'About');
 
   nav.appendChild(homeBtn);
   nav.appendChild(galleryBtn);
-  nav.appendChild(contactBtn);
+  nav.appendChild(aboutBtn);
 
   return nav;
 }
