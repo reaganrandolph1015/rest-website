@@ -17,14 +17,16 @@ function createAbout() {
   return about;
 }
 
+// button to change class of other buttons
 function setActiveBtn(id) {
   const activeBtn = document.querySelector('.tab.active');
   if (activeBtn) activeBtn.classList.remove('active');
 
   const homeBtn = document.getElementById(id);
-  homeBtn.btn.classList.add('active');
+  homeBtn.classList.add('active');
 }
 
+// adds styling of home to webpage
 function loadHome() {
   const content = document.getElementById('tab-content');
   content.classList.add('flex-lay');
