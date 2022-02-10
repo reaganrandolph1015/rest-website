@@ -1,5 +1,5 @@
+// creates header and sets id & text
 function createHeader(id, text) {
-  // creates header and sets id & text
   const header = document.createElement('header');
   header.setAttribute('id', id);
   const logo = document.createElement('h1');
@@ -9,8 +9,8 @@ function createHeader(id, text) {
   return header;
 }
 
+// allows you to create a button and set id and text
 function createBtn(id, text) {
-  // allows you to create a button and set id and text
   const btn = document.createElement('button');
   btn.setAttribute('id', id);
   const span = document.createElement('span');
@@ -21,8 +21,8 @@ function createBtn(id, text) {
   return btn;
 }
 
+// creates Navigation bar
 function createNav(id) {
-  // creates Navigation bar
   const nav = document.createElement('nav');
   nav.setAttribute('id', id);
 
@@ -37,15 +37,16 @@ function createNav(id) {
   return nav;
 }
 
+// creates Main section of web page
 function createMain(id) {
-  // creates Main section of web page
   const main = document.createElement('main');
   main.setAttribute('id', id);
+
   return main;
 }
 
+// creates footer and sets id and text content
 function createFooter(id, text) {
-  // creates footer and sets id and text content
   const footer = document.createElement('footer');
   footer.setAttribute('id', id);
   const h3 = document.createElement('h3');
